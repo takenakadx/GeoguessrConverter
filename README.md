@@ -15,14 +15,14 @@
 
 1. 設定ファイル(setting.json)に API の情報と、ダウンロードしたピン情報のパスを書き込みます。
 
-2. その後、programs にある convert.py を次のようなオプションで実行します。
+2. その後、programs にある convertcsv.py を次のようなオプションで実行します。
 
 ```
-python3 convert.py <設定ファイルのパス>
+python3 convertcsv.py <設定ファイルのパス>
 ```
 
 初期では、次のようなコマンドで動きます。
 
 ```
-python3 convert.py setting.json
+python3 convertcsv.py setting.json
 ```
