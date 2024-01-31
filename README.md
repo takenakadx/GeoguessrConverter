@@ -13,7 +13,9 @@
 
 ## 使い方
 
-設定ファイル(setting.json)に API の情報を書き込みます。
+1. 設定ファイル(setting.json)に API の情報と、ダウンロードしたピン情報のパスを書き込みます。
+
+2. その後、programs にある convert.py を次のようなオプションで実行します。
 
 ```
 python3 convert.py <設定ファイルのパス>
