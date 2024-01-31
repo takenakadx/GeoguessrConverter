@@ -1,0 +1,5 @@
+{
+  "API_KEY": "<API KEY>",
+  "loadfiles": ["rowdata/attractions.csv", "rowdata/weirdSpot.csv"],
+  "writefile": "results/mymap.csv"
+}

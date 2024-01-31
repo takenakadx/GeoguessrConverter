@@ -15,6 +15,7 @@ args = parser.parse_args()
 
 with open(args.setting,"r") as f:
     jsondata = json.load(f)
+    print("load file",jsondata)
     csvfiles = jsondata["loadfiles"]
     writepath = jsondata["writefile"]
     API_KEY = jsondata["API_KEY"]

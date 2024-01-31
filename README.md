@@ -1,2 +1,9 @@
 # GeoguessrConverter
-this is for create geoguessr map from google map
+
+グーグルマップの情報をジオゲッサーに入力するために作成したプログラムです。
+
+## 事前に用意するもの
+
+## 使い方
+
+[Qiita 記事]()
